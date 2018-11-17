@@ -17,6 +17,7 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'http://hypertrack-core-android.s3-website-us-east-1.amazonaws.com/' }
         google()
         jcenter()
     }
